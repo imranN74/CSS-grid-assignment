@@ -1,0 +1,19 @@
+Q1. Explain the use of grid-auto-row and grid-auto-column using code example.
+
+Ans :-
+=> grid-auto-row : This property sets the size of automatically generated rows in the grid. If you have a grid with a fixed number of rows, but you have more grid items than there are rows, additional rows will be created automatically. grid-auto-rows allows you to specify the size of these implicitly created rows.
+
+=> grid-auto-column : Similar to grid-auto-rows, this property sets the size of automatically generated columns in the grid. When there are more grid items than the number of explicitly defined columns, additional columns will be created, and grid-auto-columns allows you to specify their size.
+
+Q2. Explain the difference between justify-items and justify-slef using code example.
+
+Ans :-
+
+=> justify-items : justify-items  is set on the container and applies to all direct children, It sets the layout of the direct children.
+
+=> justify-self : justify-self is set on individual items, allowing it to override the default alignment for specific items within the container.
+
+
+
+
+

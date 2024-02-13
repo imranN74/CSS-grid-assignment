@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Justify-self & justify-items</title>
+    <style>
+      .container {
+        display: grid;
+        width: 100vw;
+        grid-template-columns: 100px 100px 100px;
+        gap: 10px;
+        row-gap: 10px;
+        /* align the content into center rekatuve to the container */
+        justify-content: center;
+      }
+
+      .box {
+        height: 200px;
+        background-color: aqua;
+      }
+
+      /* aligned the perticular box in center */
+      .box3 {
+        justify-self: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Difference between justify-items & Justify-self</h1>
+    <div class="container">
+      <div class="box1 box">1</div>
+      <div class="box2 box">2</div>
+      <div class="box3 box">self aligned div</div>
+      <div class="box4 box">4</div>
+      <div class="box5 box">5</div>
+    </div>
+  </body>
+</html>
